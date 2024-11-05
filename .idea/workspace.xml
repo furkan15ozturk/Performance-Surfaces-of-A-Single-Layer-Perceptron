@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="008ab2aa-9f69-4808-82a4-b7b032b4248c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Performance Surfaces of A Single Layer Perceptron.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rosenblatt's Perceptron/applying_perceptron.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rosenblatt's Perceptron/perceptron.py" afterDir="false" />
+    <list default="true" id="008ab2aa-9f69-4808-82a4-b7b032b4248c" name="Changes" comment="Add project configuration and Perceptron implementation&#10;&#10;This commit introduces the initial configuration files for the project, including IDEA-specific settings. Additionally, the commit includes the Python implementation of the Perceptron algorithm and a script to apply and test the perceptron on sample data.">
+      <change afterPath="$PROJECT_DIR$/Performance Function Based on y(n)/applying_perceptron.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance Function Based on y(n)/perceptron.py" beforeDir="false" afterPath="$PROJECT_DIR$/Performance Function Based on y(n)/perceptron.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rosenblatt's Perceptron/applying_perceptron.py" beforeDir="false" afterPath="$PROJECT_DIR$/Performance Function Based on e_q^2(n)/applying_perceptron.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rosenblatt's Perceptron/perceptron.py" beforeDir="false" afterPath="$PROJECT_DIR$/Performance Function Based on e_q^2(n)/perceptron.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;furkan15ozturk&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/furkan15ozturk/Performance-Surfaces-of-A-Single-Layer-Perceptron.git&quot;,
+    &quot;accountId&quot;: &quot;705527b5-7e60-4a77-add3-dc57d2e6a717&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -39,20 +47,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.perceptron.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.applying_perceptron.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.perceptron.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/Furkan Öztürk/Hacettepe University Master's Program/Neural Networks/Perceptron/Performance Surfaces of A Single Layer Perceptron/Performance Function Based on e_q^2(n)",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Furkan Öztürk\Hacettepe University Master's Program\Neural Networks\Perceptron\Performance Surfaces of A Single Layer Perceptron\Performance Function Based on e_q^2(n)" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Furkan Öztürk\Hacettepe University Master's Program\Neural Networks\Perceptron\Performance Surfaces of A Single Layer Perceptron\Performance Function Based on y(n)" />
+      <recent name="D:\Furkan Öztürk\Hacettepe University Master's Program\Neural Networks\Perceptron\Performance Surfaces of A Single Layer Perceptron\Rosenblatt's Perceptron" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -73,15 +92,30 @@
       <workItem from="1730725903224" duration="5770000" />
       <workItem from="1730796823558" duration="19000" />
       <workItem from="1730797982126" duration="8237000" />
-      <workItem from="1730817198940" duration="1020000" />
+      <workItem from="1730817198940" duration="3354000" />
+      <workItem from="1730828585791" duration="6524000" />
     </task>
+    <task id="LOCAL-00001" summary="Add project configuration and Perceptron implementation&#10;&#10;This commit introduces the initial configuration files for the project, including IDEA-specific settings. Additionally, the commit includes the Python implementation of the Perceptron algorithm and a script to apply and test the perceptron on sample data.">
+      <option name="closed" value="true" />
+      <created>1730818366677</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730818366678</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add project configuration and Perceptron implementation&#10;&#10;This commit introduces the initial configuration files for the project, including IDEA-specific settings. Additionally, the commit includes the Python implementation of the Perceptron algorithm and a script to apply and test the perceptron on sample data." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add project configuration and Perceptron implementation&#10;&#10;This commit introduces the initial configuration files for the project, including IDEA-specific settings. Additionally, the commit includes the Python implementation of the Perceptron algorithm and a script to apply and test the perceptron on sample data." />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Performance_Surfaces_of_A_Single_Layer_Perceptron$perceptron.coverage" NAME="perceptron Coverage Results" MODIFIED="1730817693577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Performance_Surfaces_of_A_Single_Layer_Perceptron$applying_perceptron.coverage" NAME="applying_perceptron Coverage Results" MODIFIED="1730836570368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Performance Function Based on y(n)" />
     <SUITE FILE_PATH="coverage/Performance_Surfaces_of_A_Single_Layer_Perceptron$main.coverage" NAME="main Coverage Results" MODIFIED="1730818125358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

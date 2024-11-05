@@ -61,9 +61,9 @@ class Perceptron:
             dot_product += user_input[i] * self.weights[i]
         prediction = self.sign(dot_product)
         if prediction == 1:
-            return 0
-        elif prediction == -1:
             return 1
+        elif prediction == -1:
+            return 0
 
     def print_var(self):
         print(f"Data: {self.data}")

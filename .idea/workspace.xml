@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="008ab2aa-9f69-4808-82a4-b7b032b4248c" name="Changes" comment="Add new Perceptron implementation and rearrange files&#10;&#10;This commit adds a new Perceptron algorithm implementation, along with a script for applying and testing the model. It also updates IntelliJ IDEA configuration and reorganizes project files for better structure.">
-      <change afterPath="$PROJECT_DIR$/Data Generation/generate_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Performance Function/applying_perceptron.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Performance Function/perceptron.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plotting/Surface Plotting/plotting-surface.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plotting/Trajectory Plotting/plotting-trajectory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plotting/data-plotting.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plotting/plotting-sigmoidal-nonlinearity.py" afterDir="false" />
+    <list default="true" id="008ab2aa-9f69-4808-82a4-b7b032b4248c" name="Changes" comment="Project completed.&#10;Performance functions 1, 2 and 3 are shown with weight trajectories. All algorithms are plotted as a surface plot.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Performance Function Based on e_q^2(n)/applying_perceptron.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Performance Function Based on e_q^2(n)/perceptron.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Performance Function Based on y(n)/applying_perceptron.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Performance Function Based on y(n)/perceptron.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +106,7 @@
       <workItem from="1730964509028" duration="20124000" />
       <workItem from="1731062342789" duration="10960000" />
       <workItem from="1731097422380" duration="885000" />
-      <workItem from="1731150613079" duration="7257000" />
+      <workItem from="1731150613079" duration="9203000" />
     </task>
     <task id="LOCAL-00001" summary="Add project configuration and Perceptron implementation&#10;&#10;This commit introduces the initial configuration files for the project, including IDEA-specific settings. Additionally, the commit includes the Python implementation of the Perceptron algorithm and a script to apply and test the perceptron on sample data.">
       <option name="closed" value="true" />
@@ -135,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730836902605</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Project completed.&#10;Performance functions 1, 2 and 3 are shown with weight trajectories. All algorithms are plotted as a surface plot.">
+      <option name="closed" value="true" />
+      <created>1731172728573</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731172728573</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,7 +141,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add project configuration and Perceptron implementation&#10;&#10;This commit introduces the initial configuration files for the project, including IDEA-specific settings. Additionally, the commit includes the Python implementation of the Perceptron algorithm and a script to apply and test the perceptron on sample data." />
     <MESSAGE value="Add new Perceptron implementation and rearrange files&#10;&#10;This commit adds a new Perceptron algorithm implementation, along with a script for applying and testing the model. It also updates IntelliJ IDEA configuration and reorganizes project files for better structure." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add new Perceptron implementation and rearrange files&#10;&#10;This commit adds a new Perceptron algorithm implementation, along with a script for applying and testing the model. It also updates IntelliJ IDEA configuration and reorganizes project files for better structure." />
+    <MESSAGE value="Project completed.&#10;Performance functions 1, 2 and 3 are shown with weight trajectories. All algorithms are plotted as a surface plot." />
+    <option name="LAST_COMMIT_MESSAGE" value="Project completed.&#10;Performance functions 1, 2 and 3 are shown with weight trajectories. All algorithms are plotted as a surface plot." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Performance_Surfaces_of_A_Single_Layer_Perceptron$perceptron.coverage" NAME="perceptron Coverage Results" MODIFIED="1731083736542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Performance Function" />
